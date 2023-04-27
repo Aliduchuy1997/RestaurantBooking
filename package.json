@@ -6,6 +6,9 @@
     "start": "ng serve",
     "build": "npm install --force && ng build --configuration production"
   },
+  "engines": {
+    "node": "^14.20.0 || ^16.13.0 || >=18.10.0"
+  },
   "private": true,
   "dependencies": {
     "@angular-devkit/build-angular": "~15.0.2",
